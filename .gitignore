@@ -1,0 +1,34 @@
+## .NET build output
+bin/
+obj/
+out/
+publish/
+*.user
+*.suo
+*.userprefs
+
+## Test results and coverage
+TestResults/
+*.trx
+coverage/
+*.coverage
+
+## IDE files
+.vs/
+.vscode/
+.idea/
+*.swp
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Local configuration and secrets
+appsettings.Local.json
+appsettings.*.local.json
+.env
+*.pfx
+
+## Temporal dev-server database, if one is ever persisted locally
+temporal.db
+*.db

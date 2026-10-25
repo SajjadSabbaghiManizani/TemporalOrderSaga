@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OrderSaga.Contracts/OrderSaga.Contracts.csproj" />
+    <Project Path="src/OrderService/OrderService.csproj" />
+    <Project Path="src/InventoryService/InventoryService.csproj" />
+    <Project Path="src/PaymentService/PaymentService.csproj" />
+    <Project Path="src/OrderWorkflowWorker/OrderWorkflowWorker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OrderWorkflow.Tests/OrderWorkflow.Tests.csproj" />
+  </Folder>
+</Solution>
